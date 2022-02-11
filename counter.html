@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <style>
+        .plus-minus, .positive, .negative {
+            display: inline-block;
+            vertical-align: top;
+            padding-right: 5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="plus-minus">
+        <h1 class="numb">0</h1>
+        <button class="increment-btn">+1</button>
+        <button class="decrement-btn">-1</button>
+    </div>
+    <div class="positive">
+        <button class="add-btn">Add Increment Counter</button>
+        <div class="counter">
+            <h2 id="0" class="counter-display">0</h2>
+        </div>
+        <div id="new-counter"></div>
+    </div>
+    <div class="negative">
+        <button class="add-btn2">Add Decrement Counter</button>
+        <div class="counter2">
+            <h2 id="-1" class="counter-display2">0</h2>
+        </div>
+        <div id="new-counter2"></div>
+    </div>
+    
+    <script src="counter.js"></script>
+</body>
+</html>
