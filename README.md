@@ -1,4 +1,4 @@
-# Counter
+# Counter:
 
 User interface of this Counter is as shown in the below attached image. HTML5 and Vanilla JavaScript is used to implement this Counter.
 
